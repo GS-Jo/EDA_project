@@ -1,6 +1,6 @@
 
 # 게임 배틀그라운드 데이터 EDA를 통한 Top10전략 알아보기
-## <배틀그라운드 뉴비, 치킨 못먹어도 Top10은 쉽게 하자!>
+### <배틀그라운드 뉴비, 치킨 못먹어도 Top10은 쉽게 하자!>
 
 ## 1.주제선정
 
@@ -42,21 +42,21 @@
 ## 2. 데이터 전처리
 
 #### 데이터 전처리 방법
-- 중복되는 컬럼은 삭제(횟수컬럼 drop하고 확률 및 Pg컬럼으로 데이터셋 구성)하였음
 
-<img width="587" alt="스크린샷 2022-04-13 오후 7 23 20" src="https://user-images.githubusercontent.com/80455724/163159900-0330b284-d89e-42b2-9be2-12cefa0cc909.png">
+- 중복되는 컬럼은 삭제(횟수컬럼 drop하고 확률 및 Pg컬럼으로 데이터셋 구성)하였음
+<img width="586" alt="스크린샷 2022-04-13 오후 7 43 43" src="https://user-images.githubusercontent.com/80455724/163163920-1babf5ea-cabb-412d-b913-b9ed754777fe.png">
 
 - 플레이한 라운드횟수컬럼로 나누어 게임당 횟수 컬럼 추가
-
-<img width="585" alt="스크린샷 2022-04-13 오후 7 23 40" src="https://user-images.githubusercontent.com/80455724/163159938-39f5ab5e-b80f-4a7b-bc19-f48ad511cb8f.png">
+<img width="587" alt="스크린샷 2022-04-13 오후 7 23 20" src="https://user-images.githubusercontent.com/80455724/163159900-0330b284-d89e-42b2-9be2-12cefa0cc909.png">
 
 - EDA의 용의성을 위해 일부 수치형데이터 범주화
+<img width="585" alt="스크린샷 2022-04-13 오후 7 23 40" src="https://user-images.githubusercontent.com/80455724/163159938-39f5ab5e-b80f-4a7b-bc19-f48ad511cb8f.png">
 
 #
 
 ## 3. EDA
 
-### EDA를 통해 살펴볼 것
+#### EDA를 통해 살펴볼 것
 1. 플레이어의 생존에 큰 영향을 미치는 핵심 변수는 무엇인가. 
 2. 뉴비 플레이어가 안정적으로 top10에 들기 위해서는 어떻게 플레이해야할까?
     - 1) 솔로, 듀오, 스쿼드 3가지 모드 중 어떤 모드에서 뉴비가 오랫동안 생존하기 좋은가.

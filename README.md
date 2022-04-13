@@ -18,17 +18,17 @@
 
 #
 ### 1-1. 데이터 설명
-### 데이터 수집 : Kaggle 배틀그라운드 데이터셋
+#### 데이터 수집 : Kaggle 배틀그라운드 데이터셋
 - https://www.kaggle.com/leonardokarl/pubg-statisctic
 
-### - 데이터셋
+#### 데이터셋
 - 데이터셋 : 게임모드별로 Solo, Duo, Squad 3개의 데이터셋을 합쳐서 활용
 - 데이터를 합쳐 263694 rows × 51 columns의 데이터셋을 만들었고 결측치는 존재하지 않았음.
 
 <img width="601" alt="스크린샷 2022-04-13 오후 7 20 50" src="https://user-images.githubusercontent.com/80455724/163157693-86350c6d-121a-4e63-aba4-82698d81074c.png">
 
 
-### - 변수
+#### 변수
 - 플레이어의 총 조준실력 관련 변수: KillDeathRatio, DamagePg, KillsPg, Kills, HeadshotKillsPg, HeadshotKills, HeadshotKillRatio, Assists, DailyKills, WeeklyKills, RoundMostKills, MaxKillStreaks, LongestKill, DamageDealt
 - 생존시간 관련 변수: TimeSurvived, TimeSurvivedPg, LongestTimeSurvived, MostSurvivalTime, AvgSurvivalTime,
 - 아이템 사용갯수 관련: HealsPg, Heals, Revives, Boosts	
@@ -37,7 +37,7 @@
 - 기타: player_name, RoundsPlayed, Rating, BestRating, RevivesPg, RoadKillsPg, RoadKills, TeamKillsPg, TeamKills, Suicides, VehicleDestroys, Days, DBNOs,GameMode
 
 
-#
+
 
 ## 2. 데이터 전처리
 

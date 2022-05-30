@@ -15,6 +15,13 @@
         - 가설2.안정적으로 top10에 들기 위해서는 최소한 K/D 2이상은 기록해야할 것이다.
         - 가설3.부스트아이템과 회복아이템이 뉴비플레이어의 생존률을  상승시킬 것이다.
         - 가설4.탈것을 적극적으로 활용한 이동방식이 플레이어의 생존 확률을 제고할 수 있을 것이다.
+
+### 파일설명
+
+#### [배틀그라운드 EDA프로젝트 전처리과정](https://github.com/GS-Jo/EDA_project/blob/main/pubg/Battleground_preprocessing.ipynb)
+
+#### [배틀그라운드 EDA프로젝트 EDA](https://github.com/GS-Jo/EDA_project/blob/main/pubg/EDA_pubg.ipynb)
+
         
 #
 ### 1-1. 데이터 설명

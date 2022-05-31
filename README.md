@@ -83,9 +83,10 @@
 
 #### * 가설1.플레이어의 생존에 가장 큰 영향을 미치는 요인은 상대플레이어와의 교전능력(에임실력)일 것이다.
 
+<img width="571" alt="스크린샷 2022-05-31 오후 2 54 57" src="https://user-images.githubusercontent.com/80455724/171105746-0bd9b87a-c6c1-4563-b9e3-c9d0db9e0556.png">
 
-Top10에 들 확률 컬럼과 상관계수가 높은 컬럼을 추려보았다.
-<img width="681" alt="스크린샷 2022-04-13 오후 6 27 14" src="https://user-images.githubusercontent.com/80455724/163159985-805683f5-ba00-4560-9cad-334d68daff70.png">
+top1이 되기 위해서는 K/D(교전능력)이 매우 중요한 것을 확인할 수 있다.
+top10은 교전능력보다 게임당 평균 이동거리(Movedistance)와 더 큰 상관관계를 보인다.
 
 #### 타켓변수: Top10ratio
 #### 활용할 변수
